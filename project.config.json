@@ -1,0 +1,118 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [
+      {
+        "value": ".vscode",
+        "type": "folder"
+      },
+      {
+        "value": ".less",
+        "type": "suffix"
+      },
+      {
+        "value": ".map",
+        "type": "suffix"
+      },
+      {
+        "value": "^\\.[git|es|ed]",
+        "type": "regexp"
+      }
+    ],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": false,
+    "scopeDataCheck": true,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.3.4",
+  "appid": "wxa9d65e48f04ffbd1",
+  "projectname": "PopRun",
+  "cloudfunctionTemplateRoot": "",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "个人",
+          "pathName": "pages/user/user",
+          "query": "个人",
+          "scene": null
+        },
+        {
+          "name": "用户修改",
+          "pathName": "pages/user/edit/edit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "夜奔",
+          "pathName": "pages/pub/pub",
+          "query": "夜奔",
+          "scene": null
+        },
+        {
+          "name": "徽章",
+          "pathName": "pages/user/modals/modals",
+          "query": "徽章",
+          "scene": null
+        },
+        {
+          "name": "分享页面",
+          "pathName": "pages/run/sharePage/sharePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "跑步",
+          "pathName": "pages/run/run",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "夜奔详情",
+          "pathName": "pages/pub/listDetail/listDetail",
+          "query": "夜奔详情",
+          "scene": null
+        },
+        {
+          "name": "展示详情",
+          "pathName": "pages/pub/blockDetail/blockDetail",
+          "query": "展示详情",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "auto",
+    "tabSize": 2
+  }
+}

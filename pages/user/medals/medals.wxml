@@ -1,0 +1,36 @@
+<wxml-to-canvas class="widget" height="600" width="300"></wxml-to-canvas>
+<view class="detail">
+    <view class="d-img">
+      <van-image
+        width="180"
+        height="180"
+        fit="contain"
+        src="{{ medal[0].img1 }}" wx:if="{{medal[0].type}}"/>
+      <van-image
+        width="180"
+        height="180"
+        fit="contain"
+        src="{{ medal[0].img2 }}" wx:if="{{!medal[0].type}}"/>
+    </view>
+    <view class="d-name">{{ medal[0].name }}</view>
+    <view class="d-desc">{{ medal[0].desc }}</view>
+    <view class="toget">
+      <van-button round type="primary" bind:click="getMedal" wx:if="{{!medal[0].type}}">点亮</van-button>
+      <van-button round type="primary" bind:click="shareMedal" wx:if="{{medal[0].type}}">分享</van-button>
+    </view>
+    <div class="d-time" wx:if="{{medal[0].type}}">
+      <view>于{{ medal[0].created_at }}点亮</view>
+    </div>
+    <!-- <div class="d-time" wx:if="{{!medal[0].type}}">
+      <view>可在{{ time_start }}至{{ time_end }}点亮</view>
+    </div> -->
+    
+
+</view>
+
+<van-popup show="{{ ispop }}" closeable round bind:close="onClose">
+    <view class="stail">
+      <van-button class="s-button" round type="warning" bind:click="saveShare">保存</van-button>
+      <image class ="s-img" src="{{src}}" ></image>
+    </view>
+</van-popup>

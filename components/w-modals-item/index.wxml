@@ -1,0 +1,42 @@
+<view class="img" catch:tap="showDetail">
+  <van-image
+  width="60"
+  height="60"
+  fit="contain"
+  src="{{ data[0].img1 }}" wx:if="{{data[0].type}}"/>
+  <van-image
+  width="60"
+  height="60"
+  fit="contain"
+  src="{{ data[0].img2 }}" wx:elif="{{!data[0].type}}"/>
+  <view class="name">{{ data[0].name }}</view>
+</view>
+
+<!-- 详细弹窗 -->
+<van-popup show="{{ isShowDetail }}" closeable round bind:close="onClose">
+  <view class="detail">
+    <view class="d-img">
+      <van-image
+        width="120"
+        height="120"
+        fit="contain"
+        src="{{ data[0].img1 }}" wx:if="{{data[0].type}}"/>
+        <van-image
+        width="120"
+        height="120"
+        fit="contain"
+        src="{{ data[0].img2 }}" wx:if="{{!data[0].type}}"/>
+    </view>
+    <view class="d-name">{{ data[0].name }}</view>
+    <view class="d-desc">{{ data[0].desc }}</view>
+    <view class="toget" centor wx:if="{{data[0].type}}">
+      <van-button round type="primary" bind:click="goModal">查看详情</van-button>
+    </view>
+    <view class="toget" centor wx:if="{{!data[0].type}}">
+      <van-button round type="primary" bind:click="goModal" wx:if="{{!ungetable}}">前往点亮</van-button>
+    </view>
+    <div class="d-time" wx:if="{{data[0].type != 0}}">
+      <view>于{{ data[0].created_at }}点亮</view>
+    </div>
+  </view>
+</van-popup>

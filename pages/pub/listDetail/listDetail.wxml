@@ -1,0 +1,43 @@
+<van-dialog id="van-dialog" />
+<view class="detail">
+  <view class="top">
+    <view class="title">
+      <text>{{listDetail.title}}</text>
+    </view>
+    <view class="desc">
+      <image class="image" mode="widthFix" lazy-load 
+        src="{{listDetail.cover.original}}" />
+      <view class="desc-title" wx-if="{{listDetail.desc}}">
+        <text>{{listDetail.desc}}</text>
+      </view>
+      <image class="image" mode="widthFix" lazy-load 
+        wx:for="{{listDetail.imgs.original}}" 
+        wx:key="item"
+        src="{{item}}" />
+      <view class="desc-con" wx-if="{{listDetail.content}}"
+       wx:for="{{listDetail.content}}"
+       wx:key="item" >
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="bottom">
+    <view class="reward">
+      <van-cell title="夜奔纪念奖励" label="点亮一枚徽章作为回忆的见证" border="{{ false }}" />
+      <view class="medal-img">
+        <van-image width="150rpx" height="150rpx" src="{{listDetail.medal.img}}" />
+      </view>
+      <view class="medal-name">
+        <text>{{listDetail.medal.name}}</text>
+      </view>
+    </view>
+    <view class="act-time">
+      <van-cell title="完成条件：1 km" border="{{ false }}" />
+      <van-cell title="活动有效期：{{activity_date+'21:00:00-22:00:00'}}" border="{{ false }}" />
+    </view>
+    <view class="go-medal">
+      <van-button round type="primary"  bind:click="goMedal">去点亮</van-button>
+    </view>
+  </view>
+</view>

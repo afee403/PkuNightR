@@ -1,0 +1,90 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "PkR",
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "libVersion": "3.4.0",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/pub/pub",
+          "pathName": "pages/pub/pub",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/pub/pub",
+          "pathName": "pages/pub/pub",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/pub/pub",
+          "pathName": "pages/pub/pub",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/pub/pub",
+          "pathName": "pages/pub/pub",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "个人",
+          "pathName": "pages/user/user",
+          "query": "个人",
+          "scene": null
+        },
+        {
+          "name": "用户修改",
+          "pathName": "pages/user/edit/edit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "夜奔",
+          "pathName": "pages/pub/pub",
+          "query": "夜奔",
+          "scene": null
+        },
+        {
+          "name": "徽章",
+          "pathName": "pages/user/modals/modals",
+          "query": "徽章",
+          "scene": null
+        },
+        {
+          "name": "分享页面",
+          "pathName": "pages/run/sharePage/sharePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "跑步",
+          "pathName": "pages/run/run",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "夜奔详情",
+          "pathName": "pages/pub/listDetail/listDetail",
+          "query": "夜奔详情",
+          "scene": null
+        },
+        {
+          "name": "展示详情",
+          "pathName": "pages/pub/blockDetail/blockDetail",
+          "query": "展示详情",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

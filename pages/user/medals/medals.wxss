@@ -1,0 +1,117 @@
+
+/* 图片 */
+.img{
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+/* 勋章名称 */
+.name{
+  width: 100%;
+  font-size: 24rpx;
+  color: #747272;
+  /* white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important; */
+}
+
+/* 详细显示 */
+.detail{
+  margin: 0 auto;
+  width: 560rpx;
+  height: 720rpx;
+}
+.d-img{
+  margin: 0 auto;
+  width: 100% auto;
+  text-align: center;
+  margin-top: 70rpx;
+}
+.d-name{
+  width: 100%;
+  margin-top: 10rpx;
+  text-align: center;
+  font-size: 38rpx;
+  color: #eb0a0d;
+  font-weight: 700;
+}
+.d-desc{
+  margin: 30rpx auto;
+  width: 80%;
+  border: rgb(233, 231, 229) 1px solid;
+  padding: 12rpx 30rpx;
+  border-radius: 5px;
+  min-height: 200rpx;
+  font-size: 30rpx;
+  color: #504e4e;
+  text-align: center;
+}
+
+.d-time{
+  margin: 0 auto;
+  width: 100%;
+  bottom: 50rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #afabab;
+}
+
+.toget{
+margin: 30rpx auto;
+text-align: center;
+}
+
+.widget{
+  position: absolute;
+  left: -9999px;
+}
+
+/* field */
+.sinput{
+  width:320px;
+}
+
+/* poppage */
+.stail {
+  position: relative;
+  width: 720rpx;
+  height: 1080rpx;
+  /*background: url("http://162.105.209.3:8000/storage/testshare.jpg");*/
+}
+
+image{
+  width: 100%
+}
+
+.s-img {
+  width: 720rpx;
+  height: 1080rpx;
+  z-index: 1;
+}
+
+.slogan {
+  font-size:60rpx;
+  position:fixed;
+  z-index: 2;
+  color: #eb0a0d;
+}
+
+.s-modal{
+  position: absolute;
+  bottom: 140px;
+  justify-content: right;
+  width: 280rpx;
+  height: 280rpx;
+  background-color: #00000000;
+  z-index: 2;
+  display: inherit;
+}
+
+.s-button{
+  margin: 30rpx auto;
+  text-align: center;
+  left: 300rpx;
+  bottom: 0px;
+  position: fixed;
+  z-index:2;
+}

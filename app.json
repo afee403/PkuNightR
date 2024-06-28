@@ -1,0 +1,60 @@
+{
+    "pages": [
+        "pages/pub/pub",
+        "pages/user/user",
+        "pages/pub/listMore/listmore",
+        "pages/pub/blockMore/blockmore",
+        "pages/pub/listDetail/listDetail",
+        "pages/pub/blockDetail/blockDetail",
+        "pages/user/edit/edit",
+        "pages/user/medals/medals"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序运动定位"
+        }
+    },
+    "requiredPrivateInfos": [
+      "getLocation"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#94070A",
+        "navigationBarTitleText": "PKU夜奔",
+        "navigationBarTextStyle": "white",
+        "onReachBottomDistance": 65
+    },
+    "tabBar": {
+        "backgroundColor": "#fff",
+        "color": "#000",
+        "selectedColor": "#94070A",
+        "list": [
+            {
+                "pagePath": "pages/pub/pub",
+                "text": "夜奔",
+                "iconPath": "imgs/tabbar/run.png",
+                "selectedIconPath": "/imgs/tabbar/run-r.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "个人",
+                "iconPath": "imgs/tabbar/user.png",
+                "selectedIconPath": "/imgs/tabbar/user-r.png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "van-rate": "@vant/weapp/rate/index",
+        "van-button": "@vant/weapp/button/index",
+        "van-notify": "@vant/weapp/notify/index",
+        "van-dialog": "@vant/weapp/dialog/index",
+        "van-toast": "@vant/weapp/toast/index",
+        "van-loading": "@vant/weapp/loading/index",
+        "van-row": "@vant/weapp/row/index",
+        "van-col": "@vant/weapp/col/index",
+        "van-icon": "@vant/weapp/icon/index",
+        "van-image": "@vant/weapp/image/index"
+    },
+    "plugins": {
+    }
+}

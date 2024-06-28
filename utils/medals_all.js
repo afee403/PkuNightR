@@ -1,0 +1,20 @@
+/*
+let medals_all = [
+  [{meid: 63, created_at: "", type: 0, name: "共赴时代之约", mkey: "taylor", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/taylor_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/taylor.png", img3: "https://kwdl.pku.edu.cn/storage/testsharet.jpg", desc: "Taylor Swift主题夜奔纪念", getable: 1712840400000, ungetable: 1712844000000}],
+  [{meid: 62, created_at: "", type: 0, name: "为你的深夜送束花", mkey: "zhoushen", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/zhoushen_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/zhoushen.png", img3: "https://kwdl.pku.edu.cn/storage/testsharez.jpg", desc: "周深主题夜奔纪念", getable: 1711026000000, ungetable: 1711029600000}]
+];
+*/
+
+let medals_all = [
+  [{meid: 82, created_at: "", type: 0, rank: 0, bias: 173, name: "夏之韵", mkey: "24summer03", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/summer2_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/summer.png", img3: "https://kwdl.pku.edu.cn/storage/commonshare.jpg", desc: "2024.05.21夜奔纪念", getable: 1716295500000, ungetable: 1716300900000}],
+  [{meid: 74, created_at: "", type: 0, rank: 0, bias: 167, name: "夏之荫", mkey: "24summer02", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/summer2_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/summer.png", img3: "https://kwdl.pku.edu.cn/storage/commonshare.jpg", desc: "2024.05.14夜奔纪念", getable: 1715690700000, ungetable: 1715696100000}],
+  [{meid: 70, created_at: "", type: 0, rank: 0, bias: 149, name: "前进四", mkey: "st", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/st_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/st.png", img3: "https://kwdl.pku.edu.cn/storage/stshare.jpg", desc: "三体科幻主题夜奔纪念", getable: 1715258700000, ungetable: 1715264100000}],
+  [{meid: 69, created_at: "", type: 0, rank: 0, bias: 148, name: "夏之浪", mkey: "24summer01", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/summer2_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/summer.png", img3: "https://kwdl.pku.edu.cn/storage/commonshare.jpg", desc: "2024.05.07夜奔纪念", getable: 1715085900000, ungetable: 1715091300000}],
+  [{meid: 68, created_at: "", type: 0, rank: 0, bias: 112, name: "斯文咏今朝", mkey: "zhongwen", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/zhongwen_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/zhongwen.png", img3: "https://kwdl.pku.edu.cn/storage/zwshare.jpg", desc: "中文系国风音乐主题夜奔纪念", getable: 1714049100000, ungetable: 1714054500000}],
+  [{meid: 67, created_at: "", type: 0, rank: 0, bias: 105, name: "春之霞", mkey: "24spring03", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/spring_2_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/spring_2.png", img3: "https://kwdl.pku.edu.cn/storage/commonshare.jpg", desc: "2024.04.23夜奔纪念", getable: 1713876300000, ungetable: 1713881700000}],
+  [{meid: 66, created_at: "", type: 0, rank: 0, bias: 75, name: "春之律", mkey: "24spring02", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/spring_2_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/spring_2.png", img3: "https://kwdl.pku.edu.cn/storage/commonshare.jpg", desc: "2024.04.18夜奔纪念", getable: 1713445200000, ungetable: 1713449700000}],
+  [{meid: 65, created_at: "", type: 0, rank: 0, bias: 39, name: "春之声", mkey: "com240416", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/common_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/common.png", img3: "https://kwdl.pku.edu.cn/storage/commonshare.jpg", desc: "2024.04.16夜奔纪念", getable: 1713272400000, ungetable: 1713276000000}],
+  [{meid: 63, created_at: "", type: 0, rank: 0, bias: 23, name: "共赴时代之约", mkey: "taylor", img1: "https://kwdl.pku.edu.cn/storage/imgs/medals/taylor_act.png", img2: "https://kwdl.pku.edu.cn/storage/imgs/medals/taylor.png", img3: "https://kwdl.pku.edu.cn/storage/testsharet.jpg", desc: "Taylor Swift主题夜奔纪念", getable: 1712840400000, ungetable: 1712844000000}]
+];
+
+module.exports = medals_all;
